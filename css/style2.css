@@ -1,0 +1,174 @@
+*{  margin:0;
+    padding:0;
+    box-sizing:border-box ;
+  }
+
+
+  body{
+      
+    
+    display: grid;
+    gap:1rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: 10rem;
+    grid-template-columns: repeat(auto-fill,minmax(100%,1fr));;}
+     
+     .header{
+     
+      display:flex;
+      justify-content: space-between;
+      align-items:row ;
+      
+      background:linear-gradient(yellowgreen,aquamarine);
+      list-style: none;
+
+                   }
+                  .header nav ul li{
+                      display: inline-flex;
+                      align-self: center;
+                      align-items:row;
+                      text-decoration: none;
+                      align-items: center;
+                      justify-content: space-between;
+                  
+                  }
+                 .header nav ul li a {
+                  display: inline-flex; 
+                  margin:20px;
+                  flex-direction: center;
+                  align-self: center;
+                  text-decoration: none;
+                  font-weight: bolder;
+                  text-transform: uppercase;
+                  text-shadow:3px 3px 3px greenyellow ;
+
+                    } 
+    .logo div{ 
+        text-align: center;
+        font-size: large;
+        text-shadow: 5px 5px 5px yellowgreen;
+        background-color: rgb(163, 241, 238);
+    }                
+     .logo img{
+         max-width: 60%;
+         height: auto;
+         
+         border-radius: 25px ;
+         flex-direction:center;
+         margin-left:25%;
+         background-color: aquamarine;
+         }
+     
+
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow:3px 3px 3px greenyellow ;
+
+        }   
+        div img{
+            max-width: 60%;
+            height: auto;
+            
+            border-radius: 25px ;
+            flex-direction:center;
+            margin-left:25%;
+            background-color: aquamarine;
+            }
+
+        
+        
+        section .bogre{
+           
+            text-align: center;
+            background-color: rgb(212, 175, 247);
+            text-transform:uppercase;
+            text-decoration: none;
+            
+        }           
+
+    
+
+        section.turtle{
+            text-align: center;
+            text-decoration: none;
+            background-color: rgb(212, 175, 247);
+            text-transform:uppercase
+    }
+
+        section.pendiants{
+            text-align: center;
+            background-color: rgb(212, 175, 247);
+            text-transform:uppercase
+    }
+
+        section.paints{
+            text-align: center;
+            background-color: rgb(212, 175, 247);
+            text-transform:uppercase
+    }
+
+         section.description{
+            text-align: center;
+            text-decoration: solid;
+            font-weight: bold;
+            font-size: large;
+       
+    }
+
+    footer{
+        grid-area: footer;
+        display:flex;
+        text-align:center;
+        justify-content:space-between;
+        background-color: black;
+        color: antiquewhite;
+    }
+       footer li a{
+        display: flex; 
+        flex-direction: center;
+        align-self: center;
+        text-decoration: none;
+        font-weight: bolder;
+        color: antiquewhite;
+        
+       }
+       form div{
+           display: flex;
+           justify-content: center;
+           position: relative;
+           flex-flow: column;
+           min-height:screen;
+           background-color: aquamarine;
+       }
+       form div label{
+           display: flex;
+           text-decoration: solid;
+           font-size: larger;
+           
+           
+       }
+      .opinions{
+          font-size: x-large;
+          font-style: italic;
+          color:blue
+
+      }
+      .iframe{ display: flex;
+        max-width: 100%;
+        height: auto;
+        
+        border-radius: 20px ;
+        flex-direction:center;
+        margin-left:25%;
+        background: aquamarine;
+        position: relative;
+        }
+      .p{
+            
+            text-align: center;
+            font-weight: bolder;
+        }
+      }
+    
+
