@@ -1,4 +1,4 @@
-<img src="images/logo1.jpg" height:10px>
+<img src="images/logo1.jpg" height="100px" width"100px">
 
 # projecto desarrollo web
 
