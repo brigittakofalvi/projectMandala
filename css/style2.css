@@ -68,14 +68,14 @@
 
         }   
         div img{ 
-        
+            
             max-width: 60%;
             height: auto;
             
             border-radius: 25px ;
             flex-direction:center;
             margin-left:25%;
-            background-color: aquamarine;
+          
             }
 
         
@@ -163,14 +163,16 @@
         
         border-radius: 20px ;
         flex-direction:center;
-        margin-left:25%;
-        background: aquamarine;
-        position: relative;
+        margin-left:40%;
+        position:relative;
+       
+        
         }
       .p{
             
             text-align: center;
             font-weight: bolder;
+            background-color:pink;
             
         }
         .footer li:hover{
@@ -229,6 +231,28 @@
       -webkit-transform: translateX(0) rotate(0deg);
               transform: translateX(0) rotate(0deg);
       opacity: 1;
+    }
+  }
+  .padre .opinions{ background-color: blue;}
+  .color-change-2x {
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+}
+
+  @-webkit-keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
     }
   }
   
