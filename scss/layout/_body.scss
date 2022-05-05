@@ -1,0 +1,37 @@
+div{
+    background-color: aquamarine;
+    div{
+        display:table-row-group;
+        img{  max-width: 60%;
+            height: auto;
+            border-radius: 25px ;
+            flex-direction:center;
+            margin-left:25%;
+            
+            }
+    }
+}
+$lists:
+header nav ul li;
+
+
+@mixin listado($lists) {
+    @if $lists==mugs{
+        background-color: black;
+        color: blanchedalmond;
+    }
+    @else if$lists==pendiants{
+        background-color: orange;
+        color:blue;
+        font-size: 3*5px;
+    }
+    @else{
+        background-color: violet;
+        color: blue;
+
+    }
+    
+}
+.header nav ul li{
+    @include listado($lists)
+}

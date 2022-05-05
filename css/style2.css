@@ -40,6 +40,7 @@
                   text-shadow:3px 3px 3px greenyellow ;
 
                     } 
+                    .header nav ul li a:hover{ color: black;}
     .logo div{ 
         text-align: center;
         font-size: large;

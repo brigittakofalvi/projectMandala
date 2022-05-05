@@ -1,0 +1,33 @@
+/*------Header/nav-----*/
+.header{ 
+    display:flex;
+    justify-content: space-between;
+    align-items:row ;
+    
+    background:linear-gradient(yellowgreen,aquamarine);
+    list-style: none;
+    nav{
+        ul{
+            li{ display:inline-flex;
+                align-self:center;
+                text-decoration: none;
+                align-items: row;
+                justify-content: space-between;
+                a{ display: inline-flex; 
+                    margin:20px;
+                    flex-direction: center;
+                    align-self: center;
+                    text-decoration: none;
+                    font-weight: bolder;
+                    text-transform: uppercase;
+                    text-shadow:3px 3px 3px greenyellow ;
+                    &:hover{color: black}
+
+                }
+            }
+        }
+    }
+
+}
+H1{background-color: aquamarine;
+    text-align: center;}
