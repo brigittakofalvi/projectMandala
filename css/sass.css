@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box; }
 
-/*------Header/nav-----*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -43,6 +42,34 @@ div {
       flex-direction: center;
       margin-left: 25%; }
 
-.header nav ul li {
-  background-color: violet;
-  color: blue; }
+
+
+.sr-only {
+  color: black; }
+
+.iframe {
+  display: flex; }
+
+footer {
+  grid-area: footer;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color: black;
+  color: #e78f1b; }
+
+li a {
+  display: flex;
+  flex-direction: center;
+  align-self: center;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #e78f1b; }
+
+.footer li:hover {
+  transform: scale(4);
+  box-shadow: greenyellow; }
+
+.rotate-center {
+  -webkit-animation: rotate-center 0.6s ease-out 3s 3 both;
+  animation: rotate-center 0.6s ease-out 3s 3 both; }

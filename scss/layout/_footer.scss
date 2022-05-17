@@ -1,0 +1,24 @@
+footer{
+    grid-area: footer;
+    display:flex;
+    text-align:center;
+    justify-content:space-between;
+    background-color: black;
+    color: rgb(231, 143, 27);
+}
+    li a{
+    display: flex; 
+    flex-direction: center;
+    align-self: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color:rgb(231, 143, 27);
+    
+   }
+   .footer li:hover{
+    transform:scale(4);
+    box-shadow: greenyellow;        }
+     .rotate-center { 
+        -webkit-animation: rotate-center 0.6s ease-out 3s 3 both;
+                animation: rotate-center 0.6s ease-out 3s 3 both;
+    }
