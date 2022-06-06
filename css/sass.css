@@ -48,7 +48,9 @@ div {
   color: black; }
 
 .iframe {
-  display: flex; }
+  display: flex; 
+   justify-content: center;
+  justify-items: center;}
 
 footer {
   grid-area: footer;
